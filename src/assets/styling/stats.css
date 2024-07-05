@@ -1,0 +1,96 @@
+/* stats.css */
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #1d1d22;
+    background-image: url('https://themes.muffingroup.com/be/gym/wp-content/uploads/2015/04/home_gym_bg_counters.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 70vh;
+  }
+  
+  .section_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px; /* Adjust as per your design */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .column_fancy_heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title{
+    font-size: 100px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column_counter {
+    text-align: center;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .counter {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .icon_wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .icon_wrapper img {
+    width: 70px; /* Adjust size as needed */
+    height: 73px; /* Adjust size as needed */
+  }
+  
+  .desc_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .number-wrapper {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  

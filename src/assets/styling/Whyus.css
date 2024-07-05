@@ -1,0 +1,35 @@
+.why-us {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  .title {
+    color: #8159be;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .reason {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+  }
+  
+  .reason .icon {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #8159be;
+    justify-content: space-evenly;
+  }
+  
+  .reason p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
