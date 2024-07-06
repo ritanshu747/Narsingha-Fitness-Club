@@ -1,4 +1,4 @@
-import { Flex, Link, Text, Container, VStack, useColorModeValue } from '@chakra-ui/react';
+import { Flex, Link, Text, Container, VStack } from '@chakra-ui/react';
 import { FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -45,24 +45,25 @@ const FooterSection = ({ title, links }) => {
           py={1}
           color="gray.200"
           _hover={{ textDecoration: 'underline' }}
+          aria-label={link.label} // Improve accessibility by adding aria-label
         >
           {link.label}
         </Link>
       ))}
       {title === 'Connect' && (
         <Flex mt={4}>
-          <SocialIcon icon={<FaFacebook />} href="https://www.facebook.com/" />
-          <SocialIcon icon={<FaYoutube />} href="https://www.youtube.com/" />
-          <SocialIcon icon={<FaInstagram />} href="https://www.instagram.com/" />
+          <SocialIcon icon={<FaFacebook />} href="https://www.facebook.com/" label="Facebook" />
+          <SocialIcon icon={<FaYoutube />} href="https://www.youtube.com/" label="Youtube" />
+          <SocialIcon icon={<FaInstagram />} href="https://www.instagram.com/" label="Instagram" />
         </Flex>
       )}
     </Flex>
   );
 };
 
-const SocialIcon = ({ icon, href }) => {
+const SocialIcon = ({ icon, href, label }) => {
   return (
-    <Link href={href} isExternal mx={2} _hover={{ color: 'teal.100' }}>
+    <Link href={href} isExternal mx={2} _hover={{ color: 'teal.100' }} aria-label={label}>
       {icon}
     </Link>
   );
