@@ -1,25 +1,22 @@
 import React from "react";
 import "./Trainer.css"; 
+import image from "../assets/frontCarousel/front1.jpg"
+import image2 from "../assets/frontCarousel/front4.jpg"
 
 const trainers = [
   {
-    name: "John Doe",
+    name: "Aishwaraya omar",
     role: "Certified Personal Trainer",
-    bio: "John is a certified personal trainer with over 10 years of experience. He specializes in strength training and sports-specific conditioning.",
-    image: "/placeholder-user.jpg",
+    bio: "Aishwaraya is a certified personal trainer with over 10 years of experience. He specializes in strength training and sports-specific conditioning.",
+    image: image,
   },
   {
-    name: "Sarah Anderson",
+    name: "Aniket Gupta",
     role: "Certified Yoga Instructor",
-    bio: "Sarah is a certified yoga instructor with a passion for helping her students find balance and inner peace through the practice of yoga.",
-    image: "/placeholder-user.jpg",
+    bio: "Aniket is a certified yoga instructor with a passion for helping her students find balance and inner peace through the practice of yoga.",
+    image:image2
   },
-  {
-    name: "Michael Roberts",
-    role: "Certified CrossFit Coach",
-    bio: "Michael is a certified CrossFit coach with a reputation for pushing his clients to their limits and helping them achieve their fitness goals.",
-    image: "/placeholder-user.jpg",
-  },
+  
 ];
 
 function Trainers() {
