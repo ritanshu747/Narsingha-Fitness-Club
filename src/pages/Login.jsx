@@ -32,7 +32,7 @@ const Login = () => {
   return (
     <>
       <Navbar />
-      <Stack minH="100vh" direction={{ base: 'column-reverse', md: 'row' }}>
+      <Stack minH="100vh"  bg={'#b0b19b'} direction={{ base: 'column-reverse', md: 'row' }}>
         <Flex flex={1}>
           <Image alt="Cover image" objectFit="cover" src={image} />
         </Flex>

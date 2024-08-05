@@ -5,6 +5,7 @@ import Appointment from "../compoents/appointment";
 import Pricing from "../compoents/Pricing";
 import NavBar from "../compoents/Navbar";
 import Footer from "../compoents/Footer"
+import Trainer from "../compoents/Trainer";
 import "../assets/styling/cards.css";
 
 export default function App() {
@@ -47,6 +48,7 @@ export default function App() {
             <Pricing {...GoldMembership} />
             <Pricing {...TitaniumMembership} />
           </div>
+          <Trainer/>
           <Footer/>
           
         

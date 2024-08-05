@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "../pages/Icons";
+import DumbbellIcon from "./DumbbellIcon"; // Import DumbbellIcon component
 import logo from "../assets/frontCarousel/1.jpg";
 import "./Navbar.css";
 
@@ -15,8 +16,9 @@ function NavBar() {
         {/* Logo */}
         <NavLink exact to="/" className="nav-logo">
           <span className="icon">
-            <img src={logo} alt="logo"  /> 
+            <DumbbellIcon className="h-6 w-6 text-primary" /> {/* Use DumbbellIcon */}
           </span>
+          <span className="nav-logo-text">Narsignha Fitness Club</span>
         </NavLink>
 
         {/* Navigation links */}
