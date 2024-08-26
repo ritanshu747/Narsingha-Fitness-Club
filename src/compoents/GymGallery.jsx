@@ -5,45 +5,41 @@ const athletes = [
   {
     name: "Satyam",
     image: "/placeholder.svg?height=400&width=300",
-    achievements: "3x National Powerlifting Champion",
     specialty: "Powerlifting",
-    instagramHandle: "@johndoe_lifts"
+    instagramHandle: "@Satyam"
   },
   {
     name: "Kaali",
     image: "/placeholder.svg?height=400&width=300",
-    achievements: "Olympic Weightlifting Silver Medalist",
-    specialty: "Olympic Weightlifting",
-    instagramHandle: "@janesmith_oly"
+    specialty: "Powerlifting",
+    instagramHandle: "@Kaali"
   },
   {
     name: "Nitin",
     image: "/placeholder.svg?height=400&width=300",
-    achievements: "CrossFit Games Finalist",
-    specialty: "CrossFit",
-    instagramHandle: "@mike_crossfit"
+    specialty: "Boxing",
+    instagramHandle: "@Nitin"
   },
   {
     name: "Aish",
     image: "/placeholder.svg?height=400&width=300",
-    achievements: "IFBB Pro Bodybuilder",
-    specialty: "Bodybuilding",
-    instagramHandle: "@sarahlee_pro"
+    specialty: "Food",
+    instagramHandle: "@aish"
   },
   {
     name: "Saumy",
     image: "/placeholder.svg?height=400&width=300",
     achievements: "World's Strongest Man Competitor",
     specialty: "Strongman",
-    instagramHandle: "@tomwilson_strong"
+    instagramHandle: "@Saumy"
   },
   {
-    name: "Emily Chen",
+    name: "Saumy",
     image: "/placeholder.svg?height=400&width=300",
-    achievements: "National Gymnastics Team Member",
-    specialty: "Gymnastics",
-    instagramHandle: "@emilychen_gym"
-  }
+    achievements: "World's Strongest Man Competitor",
+    specialty: "Strongman",
+    instagramHandle: "@Saumy"
+  },
 ];
 
 export default function GymGallery() {
