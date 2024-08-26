@@ -63,9 +63,7 @@
     height: 100%;
     border-bottom: 3px solid transparent;
   }
-  /* .fa-code {
-    margin-left: 1rem;
-  } */
+  
   
   .nav-item {
     line-height: 40px;
@@ -135,7 +133,7 @@
     .nav-logo .icon {
       width: 1rem;
   height: 1.5rem;
-  margin-right: 16px;
+  margin-right: 12px;
   margin-top: 2px;
   margin-bottom: 2px;
     }

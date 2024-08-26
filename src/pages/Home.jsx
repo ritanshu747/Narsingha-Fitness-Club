@@ -6,6 +6,7 @@ import Pricing from "../compoents/Pricing";
 import NavBar from "../compoents/Navbar";
 import Footer from "../compoents/Footer"
 import Trainer from "../compoents/Trainer";
+import GymGallery from "../compoents/GymGallery";
 import "../assets/styling/cards.css";
 
 export default function App() {
@@ -30,7 +31,7 @@ export default function App() {
   const TitaniumMembership = {
     title: "Titatinum Membership",
     tagline: "Shape your life.",
-    price: "6000 for Six month and get 6 months memberships free.",
+    price: "3500 for Six month and get 1 month memberships free.",
     features: "Access to all gym accessories",
     features1: "Get worth of 150 rupees voucher",
     features2: "Six months planned Diet",
@@ -48,6 +49,7 @@ export default function App() {
             <Pricing {...GoldMembership} />
             <Pricing {...TitaniumMembership} />
           </div>
+          <GymGallery/>
           <Trainer/>
           <Footer/>
           

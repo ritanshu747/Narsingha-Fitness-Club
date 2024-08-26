@@ -31,7 +31,6 @@ function AboutUs() {
       <Box bg="  	#9aa0a3">
         <Navbar />
         <Box h="400px" w="full" bg="black" position="relative" display="flex" justifyContent="center" alignItems="flex-end">
-          <img src={image} alt="About Us Hero Image" className="object-cover" style={{ width: '100%', height: '100%' }} loading="lazy" />
           <Box w="full" h="full" bg="blackAlpha.500" position="absolute" zIndex="10"></Box>
           <Box textAlign="center" fontSize="2xl" mt={10} mb={5} letterSpacing=".1em" fontWeight="semibold" color="white">
             <Box w="8px" h="2px" bgGradient="linear(to-r, red.500, orange.600)" display="inline-block"></Box>

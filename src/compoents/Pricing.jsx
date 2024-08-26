@@ -1,7 +1,20 @@
 import React from 'react';
 import "../assets/styling/Pricing.css";
+import toast from 'react-hot-toast';
+import { useToast } from '@chakra-ui/react';
 
 const Pricing = ({ title, tagline, price, features, features1, features2, features3, buttonText }) => {
+  const toast= useToast();
+  function clickHandler(){
+    toast({
+      title: 'Narsingha Fitness club Address',
+      description: "Visit us at Ganeshi Lal Market, Takiz Rd, Birshibpur, Ghatampur, Uttar Pradesh 209206. For more details, call us at 700-757-2920.",
+      status: 'success',
+      duration: 5000,
+      isClosable: true,
+      position: 'top-right',
+  });
+  }
   return (
     <div className='header'>
     <div className="card">
@@ -84,7 +97,7 @@ const Pricing = ({ title, tagline, price, features, features1, features2, featur
         </li>
        
       </ul>
-      <button className="button">{buttonText}</button>
+      <button onClick={clickHandler} className="button">{buttonText}</button>
       
     </div>
     </div>

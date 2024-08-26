@@ -21,6 +21,7 @@ import front6 from"../assets/frontCarousel/front6.jpg"
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick';
+import { useNavigate } from 'react-router-dom';
 
 // Settings for the slider
 const settings = {
@@ -44,8 +45,7 @@ export default function homeCarousel() {
   // buttons as the screen size changes
   const top = useBreakpointValue({ base: '90%', md: '50%' });
   const side = useBreakpointValue({ base: '30%', md: '40px' });
-
-  // This list contains all the data for carousels
+  const navigate = useNavigate();  // This list contains all the data for carousels
   // This can be static or loaded from a server
   const cards = [{
     title:"SHAPE YOUR BODY",
@@ -91,6 +91,10 @@ export default function homeCarousel() {
       },
    
   ];
+  function clickHandler() {
+    navigate('/login');
+    console.log("login ")
+  }
 
   return (
     <Box
@@ -169,7 +173,7 @@ export default function homeCarousel() {
                   {card.text}
                 </Text>
                
-                <button class="cssbuttons-io-button">
+                <button onClick={clickHandler} class="cssbuttons-io-button">
  Get Info
   <div class="icon">
     <svg
